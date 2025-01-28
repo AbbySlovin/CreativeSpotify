@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Code Shaped Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1DB954;
+            color: #FFFFFF;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .spotify-code-resume {
+            display: grid;
+            grid-template-columns: repeat(30, 10px);
+            grid-gap: 5px;
+            justify-content: center;
+            align-content: center;
+            margin-bottom: 20px;
+        }
+        .block {
+            width: 10px;
+            height: 10px;
+            background-color: #FFFFFF;
+        }
+        .highlight {
+            background-color: #1DB954;
+        }
+        iframe {
+            border-radius: 12px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="spotify-code-resume">
+        <!-- Each div represents a pixel in the shape of the Spotify code -->
+        <div class="block"></div><div class="block"></div><div class="block highlight"></div>
+        <div class="block highlight"></div><div class="block"></div><div class="block"></div>
+        <div class="block highlight"></div><div class="block"></div><div class="block highlight"></div>
+        <div class="block"></div><div class="block highlight"></div><div class="block"></div>
+        <div class="block highlight"></div><div class="block highlight"></div><div class="block"></div>
+        <div class="block highlight"></div><div class="block highlight"></div><div class="block"></div>
+        <div class="block highlight"></div><div class="block"></div><div class="block highlight"></div>
+        <div class="block"></div><div class="block highlight"></div><div class="block"></div>
+        <div class="block highlight"></div><div class="block highlight"></div><div class="block"></div>
+        <!-- Add more blocks here to shape the Spotify code -->
+    </div>
+
+    <iframe src="https://open.spotify.com/embed/track/4PTG3Z6ehGkBFwjybzWkR8?utm_source=generator&autoplay=1" 
+        width="80%" height="352" allowfullscreen="" 
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+    </iframe>
+</body>
+</html>
